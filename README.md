@@ -3,6 +3,14 @@ Build
 
 `mvn clean package shade:shade`
 
+
+AWS Setup
+=========
+
+Runtime: Java 8
+Handler: com.catedevman.hellojava.LambdaMethodHandler::handleRequest
+
+
 Upload Jar
 ==========
 
